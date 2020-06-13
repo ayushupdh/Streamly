@@ -6,7 +6,7 @@ const Header = () => {
         <div className="ui secondary pointing menu">
             <Link to="/" className="item"> Streamly</Link>
             <div className="right menu"></div>
-            <Link to="/streams/show" className="item">All Streams</Link>
+            {/* <Link to="/streams/show" className="item">All Streams</Link> */}
             <GoogleAuth/> 
 
         </div>
